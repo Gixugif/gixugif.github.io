@@ -1,3 +1,7 @@
+/* we love icon fonts for social media links*/
+@import url(http://weloveiconfonts.com/api/?family=brandico);
+
+
 /*Containers */
 * {
   -webkit-box-sizing: border-box;
@@ -31,9 +35,9 @@ main  {
 
 .logo {
   vertical-align: top;
-  margin-right: 0 1em 1em auto;
+  margin-right: auto;
   max-width: none;
-  height: 115px
+  height: 115px;
 }
 
 .header-title {
@@ -51,12 +55,10 @@ main  {
 }
 
 
-/*Navbar we love icon fonts for social media links*/
-@import url(http://weloveiconfonts.com/api/?family=brandico);
-
+/*Navbar*/
 /* brandico */
 [class*="brandico-"]:before {
-  font-family: "brandico", sans-serif;
+  font-family: 'brandico', sans-serif;
   margin-right: 0.5em;
 }
 
@@ -142,7 +144,6 @@ footer {
   }
 
 }
-
 
 
 /* Colored Bootstrap Navbar credit to: http://work.smarchal.com/twbscolor/ */

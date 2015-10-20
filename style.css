@@ -1,7 +1,3 @@
-/*we love icon fonts for social media links*/
-@import url(http://weloveiconfonts.com/api/?family=brandico);
-
-
 /*Containers */
 * {
   -webkit-box-sizing: border-box;
@@ -54,7 +50,9 @@ main  {
 }
 
 
-/*Navbar */
+/*Navbar we love icon fonts for social media links*/
+@import url(http://weloveiconfonts.com/api/?family=brandico);
+
 /* brandico */
 [class*="brandico-"]:before {
   font-family: "brandico", sans-serif;
@@ -79,10 +77,6 @@ main  {
 .self {
   width: 20%;
   margin: 1em;
-}
-
-.about {
-
 }
 
 .about-text {

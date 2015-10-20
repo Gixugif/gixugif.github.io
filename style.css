@@ -6,9 +6,9 @@
   box-sizing: border-box;
 }
 
-* {
+body {
   max-width: 1200px;
-  margin: auto;
+  margin: auto !important;
   font-size: 16px;
   font: "Droid Sans", sans-serif;
 }
@@ -17,7 +17,7 @@ main  {
   background-color: #e6741e;
   border-style: solid;
   border-top: none;
-  border-width: 1px;
+  border-width: 1px !important;
   border-color: #d35d04;
   color: #e8e8e8;
 }
@@ -31,8 +31,9 @@ main  {
 
 .logo {
   vertical-align: top;
-  margin-right: auto;
-  height: 110px;
+  margin-right: 0 1em 1em auto;
+  max-width: none;
+  height: 115px
 }
 
 .header-title {
@@ -66,6 +67,7 @@ main  {
 .banner {
   width: 100%;
   position: relative;
+  border-width: 1px !important;
 }
 
 
@@ -75,11 +77,11 @@ main  {
 }
 
 .self {
-  width: 20%;
   margin: 1em;
 }
 
 .about-text {
+  float: right;
   margin: 1em;
 }
 
@@ -113,7 +115,7 @@ footer {
 
 
 /*Media Queries */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 765px) {
 
   .self {
     width: 25%;
@@ -130,7 +132,7 @@ footer {
   }
 }
 
-@media screen and (min-width: 601px) and (max-width: 850px) {
+@media screen and (min-width: 766px){
   .self {
     float: left;
   }
@@ -141,16 +143,7 @@ footer {
 
 }
 
-@media only screen and (min-width: 851px) {
 
-  .self {
-    float: left;
-  }
-
-  .about-text {
-    margin: 1em;
-  }
-}
 
 /* Colored Bootstrap Navbar credit to: http://work.smarchal.com/twbscolor/ */
 .navbar-default {

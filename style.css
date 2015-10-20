@@ -1,76 +1,309 @@
-﻿* {
-    border: 1px solid red !important;
+/*we love icon fonts for social media links*/
+@import url(http://weloveiconfonts.com/api/?family=brandico);
+
+
+/*Containers */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 * {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -ms-box-sizing: border-box;
-    box-sizing: border-box;
+  max-width: 1200px;
+  margin: auto;
+  font-size: 16px;
+  font: "Droid Sans", sans-serif;
 }
 
-@media only screen and (max-width: 500px) {
-	p{
-		display: none;
-	}
+main  {
+  background-color: #e6741e;
+  border-style: solid;
+  border-top: none;
+  border-width: 1px;
+  border-color: #d35d04;
+  color: #e8e8e8;
+}
+
+
+/*Header */
+.no-padding {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.logo {
+  vertical-align: top;
+  margin-right: auto;
+  height: 110px;
+}
+
+.header-title {
+  text-align: right;
+  vertical-align: top;
+  margin-left: auto;
+  margin-right: 1em;
+  float: right;
+}
+
+.sub-title {
+  margin-top: 0;
+  font-size: 1.3em;
+  color: grey;
+}
+
+
+/*Navbar */
+/* brandico */
+[class*="brandico-"]:before {
+  font-family: "brandico", sans-serif;
+  margin-right: 0.5em;
+}
+
+.no-bottom-margin {
+  margin-bottom: 0 !important;
+}
+
+.banner {
+  width: 100%;
+  position: relative;
+}
+
+
+/*Profile */
+.about-me {
+  display: inline-block;
+}
+
+.self {
+  margin-top: 1em;
+  margin-left: 1em;
+  width: 20%;
+  margin: 1em;
+}
+
+.about {
+
+}
+
+.about-text {
+  margin: 1em;
+}
+
+
+/*Projects*/
+.projects {
+  max-width: 100%;
+}
+
+.project-name {
+  text-align: center;
+}
+
+.project-title {
+  color: white;
+  font-size: 2em;
+  position: absolute;
+}
+
+
+/*Footer*/
+footer {
+  color: #000;
+  background-color: #fff;
+}
+
+.udacity {
+  text-align: right;
+  float: right;
+}
+
+
+/*Media Queries */
+@media screen and (max-width: 500px) {
+
+  .self {
+    width: 25%;
+    margin: auto;
+    display: block;
+  }
+
+  .about-text {
+    text-align: center;
+  }
+
+  .project-img {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 501px) and (max-width: 750px) {
+  .self {
+    float: left;
+  }
+
+  .about-text {
+    margin: 1em;
+  }
+
+}
+
+@media only screen and (min-width: 751px) {
+
+  .self {
+    float: left;
+  }
+
+  .about-text {
+    margin: 1em;
+  }
 }
 
 .grid {
-    margin: 0 auto;
-    max-width: 1200px;
-    width: 100%;
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
 }
 
-.row {
-    width: 100%;
-    margin-bottom: 20px;
-    display: flex; 
+
+/* Colored Bootstrap Navbar credit to: http://work.smarchal.com/twbscolor/ */
+.navbar-default {
+  background-color: #e6741e !important;
+  border-color: #d35d04 !important;
 }
 
-.col-1 {
-    width: 8.33%;
+.navbar-default
+.navbar-brand {
+  color: #e8e8e8 !important;
 }
 
-.col-2 {
-    width: 16.66%;
+.navbar-default
+.navbar-brand:hover,
+.navbar-default
+.navbar-brand:focus {
+  color: #fff !important;
 }
 
-.col-3 {
-    width: 25%;
+.navbar-default
+.navbar-text {
+  color: #e8e8e8 !important;
 }
 
-.col-4 {
-    width: 33.33%;
+.navbar-default
+.navbar-nav > li > a {
+  color: #e8e8e8 !important;
 }
 
-.col-5 {
-    width: 41.66%;
+.navbar-default
+.navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #fff !important;
 }
 
-.col-6 {
-    width: 50%;
+.navbar-default
+.navbar-nav > li > .dropdown-menu {
+  background-color: #e6741e !important;
 }
 
-.col-7 {
-    width: 58.33%;
+.navbar-default
+.navbar-nav > li > .dropdown-menu > li > a {
+  color: #e8e8e8 !important;
 }
 
-.col-8 {
-    width: 66.66%;
+.navbar-default
+.navbar-nav > li > .dropdown-menu > li > a:hover,
+.navbar-default
+.navbar-nav > li > .dropdown-menu > li > a:focus {
+  color: #fff !important;
+  background-color: #d35d04 !important;
 }
 
-.col-9 {
-    width: 75%;
+.navbar-default .navbar-nav > li > .dropdown-menu > li > .divider {
+  background-color: #e6741e !important;
 }
 
-.col-10 {
-    width: 83.33%;
+.navbar-default
+.navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #fff !important;
+  background-color: #d35d04 !important;
 }
 
-.col-11 {
-    width: 91.66%;
+.navbar-default
+.navbar-nav > .open > a,
+.navbar-default
+.navbar-nav > .open > a:hover,
+.navbar-default
+.navbar-nav > .open > a:focus {
+  color: #fff !important;
+  background-color: #d35d04 !important;
 }
 
-.col-12 {
-    width: 100%;
+.navbar-default
+.navbar-toggle {
+  border-color: #d35d04 !important;
+}
+
+.navbar-default
+.navbar-toggle:hover,
+.navbar-default
+.navbar-toggle:focus {
+  background-color: #d35d04 !important;
+}
+
+.navbar-default
+.navbar-toggle
+.icon-bar {
+  background-color: #e8e8e8 !important;
+}
+
+.navbar-default
+.navbar-collapse,
+.navbar-default
+.navbar-form {
+  border-color: #e8e8e8 !important;
+}
+.navbar-default
+.navbar-link {
+  color: #e8e8e8 !important;
+}
+
+.navbar-default
+.navbar-link:hover {
+  color: #fff !important;
+}
+
+@media (max-width: 767px) {
+  .navbar-default
+  .navbar-nav
+  .open
+  .dropdown-menu > li > a {
+    color: #e8e8e8 !important;
+  }
+
+  .navbar-default
+  .navbar-nav .open
+  .dropdown-menu > li > a:hover,
+  .navbar-default
+  .navbar-nav
+  .open
+  .dropdown-menu > li > a:focus {
+    color: #fff !important;
+  }
+
+  .navbar-default
+  .navbar-nav .open
+  .dropdown-menu > .active > a,
+  .navbar-default
+  .navbar-nav
+  .open .dropdown-menu > .active > a:hover,
+  .navbar-default
+  .navbar-nav
+  .open
+  .dropdown-menu > .active > a:focus {
+    color: #fff !important;
+    background-color: #d35d04 !important;
+  }
 }

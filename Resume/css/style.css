@@ -1,0 +1,495 @@
+/* we love icon fonts for social media links*/
+
+@import url(http://weloveiconfonts.com/api/?family=brandico);
+
+
+/*containers*/
+body,
+div,
+ul,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+{
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
+
+h1
+{
+    font-size: 40px;
+    color: #f5a623;
+    line-height: 48px;
+    display: inline-block;
+}
+
+h2
+{
+    font-weight: bold;
+    font-size: 24px;
+    color: #999;
+    line-height: 29px;
+    padding: 10px;
+}
+
+h3
+{
+    font-style: italic;
+    font-size: 20px;
+    color: #000;
+    line-height: 22px;
+}
+
+h4
+{
+    font-weight: bold;
+    font-size: 14px;
+    color: #4a4a4a;
+    line-height: 17px;
+}
+
+h2,
+h3,
+h4,
+h5
+{
+    padding: 5px 2%;
+}
+
+p
+{
+    font-size: 14px;
+    color: #333;
+    line-height: 21px;
+}
+
+a
+{
+    color: #1199c3;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+ul
+{
+    list-style-type: none;
+}
+
+img
+{
+    padding: 10px;
+}
+
+body
+{
+    width: 100%;
+}
+
+
+/*colors*/
+.orange
+{
+    background-color: #f5ae23;
+}
+
+.orange-text
+{
+    color: #f5ae23;
+}
+
+.white-text
+{
+    font-weight: bold;
+    color: #fff;
+}
+
+.gray
+{
+    background-color: #f3f3f3;
+    padding-bottom: 10px;
+    clear: both;
+}
+
+.dark-gray
+{
+    background-color: #4a4a4a;
+}
+
+
+/*header*/
+.logo
+{
+    vertical-align: top;
+    margin-right: auto;
+    max-width: none;
+    height: 115px;
+}
+
+.header-title
+{
+    text-align: right;
+    vertical-align: top;
+    margin-left: auto;
+    margin-right: 1em;
+    float: right;
+}
+
+.sub-title
+{
+    margin-top: 0;
+    font-size: 1.3em;
+    color: grey;
+}
+
+.no-bottom-margin
+{
+    margin-bottom: 0 !important;
+}
+
+.banner
+{
+    width: 100%;
+    position: relative;
+    border-width: 1px !important;
+}
+
+
+/*about-me*/
+.about-me
+{
+    background-color: #e6741e;
+    width: 100%;
+}
+
+.name
+{
+    padding-left: 10px;
+    margin-top: 0;
+}
+
+.bio-pic
+{
+    float: left;
+    padding: 10px;
+    width: 200px;
+}
+
+.welcome-message
+{
+    font-style: italic;
+    font-size: 18px;
+    color: #f3f3f3;
+    line-height: 28px;
+}
+
+.contact-data
+{
+    padding: 5px;
+}
+
+.skills-h3
+{
+    color: #f5ae23;
+    display: none;
+    padding: 0;
+}
+
+.skills
+{
+    list-style-type: disc;
+    list-style-position: inside;
+    text-align: justify;
+}
+
+.clear-fix
+{
+    overflow: auto;
+}
+
+
+/*body*/
+.center-content
+{
+    padding: 2.5% 5%;
+}
+
+.section-title
+{
+    text-align: left;
+}
+
+.education-entry,
+.work-entry,
+.project-entry,
+.online-entry
+{
+    padding: 0 5% !important;
+}
+
+.date-text
+{
+    font-style: italic;
+    font-size: 14px;
+    color: #999;
+    line-height: 16px;
+    text-align: left;
+}
+
+.location-text
+{
+    font-style: italic;
+    font-size: 14px;
+    color: #999;
+    line-height: 16px;
+    float: right;
+}
+
+.pad
+{
+    padding-left: 30px;
+}
+
+.lets-connect
+{
+    text-align: center;
+}
+
+
+/*Map*/
+.map
+{
+    display: block;
+    height: 100%;
+    margin: 0 5%;
+}
+
+.mapDiv
+{
+    height: 400px;
+    width: 100%;
+    padding-bottom: 5%;
+}
+
+
+/*button*/
+.button
+{
+    text-align: center;
+}
+
+
+/*Footer*/
+.footer-contacts
+{
+    text-align: center;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+
+.no-pad
+{
+    padding: 0 !important;
+}
+
+.connect
+{
+    background-color: #e6741e !important;
+    border-color: grey !important;
+    text-align: center;
+    border-width: 1px;
+    border-color: #cc6313;
+}
+
+.udacity
+{
+    margin: 0;
+    text-align: right;
+    float: right;
+}
+
+
+/* Media queries to handle various device widths */
+@media screen and (max-width: 1024px)
+{
+    .lets-connect
+    {
+        margin-top: 5%;
+    }
+}
+
+@media screen and (max-width: 900px)
+{
+    .bio-pic
+    {
+        width: 175px;
+    }
+}
+
+@media screen and (max-width: 750px)
+{
+    .lets-connect
+    {
+        margin-top: 10%;
+    }
+
+    .bio-pic
+    {
+        width: 150px;
+    }
+
+    .welcome-message
+    {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 750px)
+{
+    .skills-h3,
+    .bio-pic
+    {
+        display: block;
+    }
+}
+
+
+/* Colored Bootstrap Navbar credit to: http://work.smarchal.com/twbscolor/ */
+/*Navbar*/
+/* brandico */
+[class*="brandico-"]:before
+{
+    font-family: 'brandico', sans-serif;
+    margin-right: 0.5em;
+}
+
+.navbar-default
+{
+    background-color: #e6741e !important;
+    border-color: #d35d04 !important;
+}
+
+.navbar-default .navbar-brand
+{
+    color: #e8e8e8 !important;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus
+{
+    color: #fff !important;
+}
+
+.navbar-default .navbar-text
+{
+    color: #e8e8e8 !important;
+}
+
+.navbar-default .navbar-nav > li > a
+{
+    color: #e8e8e8 !important;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus
+{
+    color: #fff !important;
+}
+
+.navbar-default .navbar-nav > li > .dropdown-menu
+{
+    background-color: #e6741e !important;
+}
+
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a
+{
+    color: #e8e8e8 !important;
+}
+
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus
+{
+    color: #fff !important;
+    background-color: #d35d04 !important;
+}
+
+.navbar-default .navbar-nav > li > .dropdown-menu > li > .divider
+{
+    background-color: #e6741e !important;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus
+{
+    color: #fff !important;
+    background-color: #d35d04 !important;
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus
+{
+    color: #fff !important;
+    background-color: #d35d04 !important;
+}
+
+.navbar-default .navbar-toggle
+{
+    border-color: #d35d04 !important;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus
+{
+    background-color: #d35d04 !important;
+}
+
+.navbar-default .navbar-toggle .icon-bar
+{
+    background-color: #e8e8e8 !important;
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form
+{
+    border-color: #e8e8e8 !important;
+}
+
+.navbar-default .navbar-link
+{
+    color: #e8e8e8 !important;
+}
+
+.navbar-default .navbar-link:hover
+{
+    color: #fff !important;
+}
+
+@media (max-width: 767px)
+{
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a
+    {
+        color: #e8e8e8 !important;
+    }
+
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus
+    {
+        color: #fff !important;
+    }
+
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus
+    {
+        color: #fff !important;
+        background-color: #d35d04 !important;
+    }
+}

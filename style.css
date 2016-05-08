@@ -75,6 +75,7 @@ main  {
 /*Profile */
 .about-me {
   display: inline-block;
+  margin: auto;
 }
 
 .self {

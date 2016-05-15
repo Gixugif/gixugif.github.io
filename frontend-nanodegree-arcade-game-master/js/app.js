@@ -488,6 +488,8 @@ HUD.prototype.render = function(ctx) {
 
 
 var createEnemies = function() {
+    'use strict';
+
     allEnemies = [];
     for (var x = 0; x < 41; x++) allEnemies[x] = new Enemy(91 + 135 * (allEnemies.length % 8), calcHeight(x), x);
 };

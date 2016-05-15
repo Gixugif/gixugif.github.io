@@ -466,6 +466,8 @@ Barrier.prototype.damage = function() {
  * to display.
  */
 var HUD = function(score, lives) {
+    'use strict';
+
     this.score = score;
     this.lives = lives;
 };

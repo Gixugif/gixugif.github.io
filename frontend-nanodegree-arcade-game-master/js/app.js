@@ -68,6 +68,8 @@ Enemy.prototype.update = function(dt) {
 
 /** Draw the enemy on the screen */
 Enemy.prototype.render = function() {
+    'use strict';
+
     if (this.display === true) {
         ctx.drawImage(Resources.get(this.sprite), this.x, this.y);
     }

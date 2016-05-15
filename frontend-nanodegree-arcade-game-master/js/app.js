@@ -1,3 +1,12 @@
+/**************************************************
+** Title: app.js                                 **
+** Date: May 2016                                **
+** Author: Jeffrey Zic                           **
+** Description: Contains all the objects and     **
+** methods needed for running the game Space     **
+** Invaders.                                     **
+**************************************************/
+
 /**
  * Represents an enemy.
  * @constructor

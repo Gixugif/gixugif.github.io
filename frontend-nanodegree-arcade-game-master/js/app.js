@@ -216,13 +216,6 @@ var calcHeight = function(count) {
 var Player = function() {
     'use strict';
 
-    this.sprite = 'images/player.png';
-    this.x = (500) + (77 / 2);
-    this.y = 820;
-    this.dx = 0;
-    this.dy = 0;
-    this.width = 77;
-    this.height = 52;
     this.lives = 3;
     this.score = 0;
     this.shot = false;
@@ -528,7 +521,7 @@ var allEnemies;
 var barriers;
 var bullets = [];
 
-var player = new Player();
+var player = new Player((500) + (77 / 2), 820, 0, 0, 77, 52, 'images/player.png');
 var hud = new HUD(0, player.lives);
 
 createEnemies();

@@ -540,6 +540,8 @@ document.addEventListener('keydown', function(e) {
  * @returns {Object} They keys currently pressed down.
  */
 function keyboard_module(onUpdate) {
+    'use strict';
+
     var kb = {};
     var unicode_mapping = {};
     var key;

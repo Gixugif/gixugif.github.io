@@ -196,6 +196,8 @@ var calcHeight = function(count) {
  * @constructor
  */
 var Player = function() {
+    'use strict';
+
     this.sprite = 'images/player.png';
     this.x = (500) + (77 / 2);
     this.y = 820;

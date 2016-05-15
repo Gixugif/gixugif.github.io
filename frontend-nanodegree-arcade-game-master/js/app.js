@@ -100,6 +100,8 @@ Enemy.prototype.shoot = function() {
 
 /** Removes an enemy from the game */
 Enemy.prototype.destroy = function() {
+    'use strict';
+
     this.display = false;
     hud.score += 100;
 

@@ -33,6 +33,8 @@ var Enemy = function(posX, posY, num) {
  * @param {int} dt - a time delta between ticks.
  */
 Enemy.prototype.update = function(dt) {
+    'use strict';
+
     this.x += this.dx * dt;
 
     /**

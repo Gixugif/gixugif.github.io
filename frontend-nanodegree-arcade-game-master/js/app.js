@@ -8,6 +8,29 @@
 **************************************************/
 
 /**
+ * Represents a generic ship.
+ * @constructor
+ * @param {int} posX - The X position of the ship.
+ * @param {int} posY - The Y position of the ship.
+ * @param {int} startdy - The change in y pos each frame.
+ * @param {int} startdx - The change in x pos each frame.
+ * @param {int} shipW - The width of the ship's sprite.
+ * @param {int} shipH - The height of the ship's sprite.
+ * @param {String} shipSpirte - the URL of the ship's sprite.
+ */
+var Ship = function(posX,posY,startdy,startdx,shipW,shipH,shipSprite) {
+    'use strict';
+
+    this.x = posX;
+    this.y = posY;
+    this.dy = startdy;
+    this.dx = startdx;
+    this.width = shipW;
+    this.height = shipH;
+    this.sprite = shipSprite;
+};
+
+/**
  * Represents an enemy.
  * @constructor
  * @param {int} posX - the X position of the enemy.

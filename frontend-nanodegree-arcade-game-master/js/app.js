@@ -302,6 +302,8 @@ Player.prototype.destroy = function() {
  * Makes it easy to delete it when necessary.
  */
 var Bullet = function(posX, posY, type, num) {
+    'use strict';
+
     this.x = posX;
     this.y = posY;
     this.dx = 0;

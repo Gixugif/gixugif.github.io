@@ -451,6 +451,8 @@ Barrier.prototype.render = function() {
 
 /** Damages a barrier */
 Barrier.prototype.damage = function() {
+    'use strict';
+
     this.health -= 1;
 };
 

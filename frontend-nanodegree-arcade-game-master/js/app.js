@@ -173,6 +173,8 @@ Enemy.prototype.testCollision = function(enemy) {
  * for enemies.
  */
 var calcHeight = function(count) {
+    'use strict';
+
     if (count <= 8) {
         return 50;
     } else if (count <= 16) {

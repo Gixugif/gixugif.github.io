@@ -231,6 +231,8 @@ Player.prototype.move = function() {
 
 /** Draw the player to the screen. */
 Player.prototype.render = function() {
+    'use strict';
+
     ctx.drawImage(Resources.get(this.sprite), this.x, this.y);
 };
 

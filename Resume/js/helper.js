@@ -38,14 +38,14 @@ var HTMLworkDescription = '<div class="row"><div class="col-xs-8"><p><br>%data%<
 var HTMLprojectStart = '<div class="col-md-6 project-entry"></div>';
 var HTMLprojectTitle = '<div class="row"><a class="col-xs-6" href="%urlData%">%titleData%</a></div>';
 var HTMLprojectDates = '<div class="row"><div class="col-xs-6 date-text">%data%</div></div>';
-var HTMLprojectDescription = '<div class="row"><div class="col-xs-6"><p><br>%data%</p></div></div>';
+var HTMLprojectDescription = '<div class="row proj-desc"><div class="col-xs-6"><p><br>%data%</p></div></div>';
 var HTMLprojectImage = '<div class="row"><div class="col-xs-6"><img class="img-rounded img-responsive project_img" srcset="%srcSetData%"' +
     ' sizes="(min-width: 766px) 33vw, 100vw" src="%srcData%" alt="%altData%"></a></div></div>';
 
 var HTMLschoolStart = '<div class="row education-entry"></div>';
 var HTMLschoolName = '<div class="row"><div class="col-xs-4 school"><a href="#">%data%</a>';
 var HTMLschoolDegree = ' -- %data%</div></div>';
-var HTMLschoolDates = '<div class="row"><div class="col-xs-1 date-text">%data%</div></div>';
+var HTMLschoolDates = '<div class="row"><div class="col-xs-3 date-text">%data%</div></div>';
 var HTMLschoolLocation = '<div class="row"><div class="col-xs-2 location-text">%data%</div></div>';
 var HTMLschoolMajor = '<div class="row"><div class="col-xs-2"><em>Major: %data%</em></div></div><br>';
 
@@ -60,17 +60,8 @@ var internationalizeButton = '<button>Internationalize</button>';
 var googleMap = '<div class="map"></div>';
 
 
-/*
-This is the fun part. Here's where we generate the custom Google Map for the website.
-See the documentation below for more details.
-https://developers.google.com/maps/documentation/javascript/reference
-*/
-var map; // declares a global map variable
+var map;
 
-
-/*
-Start here! initializeMap() is called when page is loaded.
-*/
 function initializeMap() {
 
     var locations;
@@ -92,10 +83,8 @@ function initializeMap() {
     */
     function locationFinder() {
 
-        // initializes an empty array
         var locations = [];
 
-        // adds the single location property from bio to the locations array
         locations.push(bio.contacts.location);
 
         // iterates through school locations and appends each location to
@@ -145,7 +134,6 @@ function initializeMap() {
 
         });
 
-        // hmmmm, I wonder what this is about...
         google.maps.event.addListener(marker, 'click', function() {
             infoWindow.open(map, marker);
         });
@@ -197,7 +185,6 @@ function initializeMap() {
     // Sets the boundaries of the map based on pin locations
     window.mapBounds = new google.maps.LatLngBounds();
 
-    // locations is an array of location strings returned from locationFinder()
     locations = locationFinder();
 
     // pinPoster(locations) creates pins on the map for each location in
@@ -206,16 +193,8 @@ function initializeMap() {
 
 }
 
-/*
-Uncomment the code below when you're ready to implement a Google Map!
-*/
-
-// Calls the initializeMap() function when the page loads
 window.addEventListener('load', initializeMap);
 
-// Vanilla JS way to listen for resizing of the window
-// and adjust map bounds
 window.addEventListener('resize', function(e) {
-    // Make sure the map bounds get updated on page resize
     map.fitBounds(mapBounds);
 });

@@ -474,6 +474,8 @@ var HUD = function(score, lives) {
 
 /** Draw the HUD to the screen */
 HUD.prototype.render = function(ctx) {
+    'use strict';
+
     ctx.font = '20px Arial';
     ctx.fillStyle = 'white';
 

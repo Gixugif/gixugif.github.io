@@ -276,6 +276,8 @@ Player.prototype.shoot = function() {
 
 /* Destroys the player */
 Player.prototype.destroy = function() {
+    'use strict';
+
     this.lives -= 1;
     hud.lives -= 1;
 

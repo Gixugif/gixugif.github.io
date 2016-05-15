@@ -85,6 +85,7 @@ Enemy.prototype.move = function() {
 
 /** Add a bullet to the game when an enemy shoots */
 Enemy.prototype.shoot = function() {
+    'use strict';
 
     /**
      * Balance enemy shooting by having each enemy only have a small

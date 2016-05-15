@@ -419,6 +419,8 @@ var Barrier = function(posX, posY) {
 
 /** Update the barrier's sprite. */
 Barrier.prototype.update = function() {
+    'use strict';
+
     if (this.health === 0) {
         this.display = false;
     } else if (this.health <= 2) {

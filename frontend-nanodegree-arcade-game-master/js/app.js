@@ -338,6 +338,8 @@ Bullet.prototype.render = function() {
  * type.
  */
 Bullet.prototype.move = function() {
+    'use strict';
+
     if (this.type === 'player') {
         this.dy = -200;
     } else if (this.type === 'enemy') {

@@ -589,6 +589,8 @@ function keyboard_module(onUpdate) {
  * intersecting or not.
  */
 function collisionTest(obj1, obj2) {
+    'use strict';
+
     if (obj1.x < obj2.x + obj2.width &&
         obj1.x + obj1.width > obj2.x &&
         obj1.y < obj2.y + obj2.height &&

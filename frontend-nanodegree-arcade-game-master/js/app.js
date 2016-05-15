@@ -405,6 +405,8 @@ Bullet.prototype.testCollision = function(bullet) {
  * @param {int} posY - The barrier's position on the Y axis.
  */
 var Barrier = function(posX, posY) {
+    'use strict';
+
     this.x = posX;
     this.y = posY;
     this.width = 92;

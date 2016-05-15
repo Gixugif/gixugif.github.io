@@ -77,6 +77,8 @@ Enemy.prototype.render = function() {
 
 /** Calculates the enemy's movement */
 Enemy.prototype.move = function() {
+    'use strict';
+
     this.dx = (enemyDX * this.population);
 
 };

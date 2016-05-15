@@ -608,6 +608,8 @@ function collisionTest(obj1, obj2) {
  * to delete.
  */
 function deleteBullets(nums) {
+    'use strict';
+
     nums.forEach(function(num) {
         bullets.splice(num, 1);
     });

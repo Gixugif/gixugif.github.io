@@ -440,6 +440,8 @@ Barrier.prototype.update = function() {
 
 /** Draw the barrier to the screen. */
 Barrier.prototype.render = function() {
+    'use strict';
+
     if (this.display === true) {
         // we take the difference between the current and original dimensions in order
         // to stop them from shifting around

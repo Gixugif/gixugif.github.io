@@ -36,15 +36,15 @@ var Ship = function(posX,posY,startdy,startdx,shipW,shipH,shipSprite) {
  * @param {int} posX - the X position of the enemy.
  * @param {int} posY - the Y position of the enemy.
  */
-var Enemy = function(num) {
+var Enemy = function(posX,posY,num,startdy,startdx,shipW,shipH,shipSprite) {
     'use strict';
+
+    Ship.call(this,posX,posY,startdy,startdx,shipW,shipH,shipSprite);
 
     this.num = num;
     this.population = 56;
     this.display = true;
 };
-
-Enemy.__proto__ = Ship;
 
 /**
  * Update the enemy's position.
@@ -213,8 +213,10 @@ var calcHeight = function(count) {
  * Represents the player
  * @constructor
  */
-var Player = function() {
+var Player = function(posX, posY, startdy, startdx, shipW, shipH, shipSprite) {
     'use strict';
+
+    Ship.call(this,posX,posY,startdy,startdx,shipW,shipH,shipSprite);
 
     this.lives = 3;
     this.score = 0;

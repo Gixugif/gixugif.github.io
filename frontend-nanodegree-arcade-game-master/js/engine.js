@@ -1,15 +1,9 @@
-/**************************************************
-** Title: Engine.js                              **
-** Date: May 2016                                **
-** Authors: Udacity, Jeffrey Zic                 **
-** Description: This file provides the game loop **
-** functionality (update entities and render),   **
-** draws the initial game board on the screen,   **
-** and then calls the update and render methods  **
-** on your player and enemy objects (defined in  **
-** your app.js).                                 **
-**************************************************/
-
+/**
+ * Engine.js
+ * This file provides the game loop functionality (update entities and render),
+ * draws the initial game board on the screen, and then calls the update and
+ * render methods on your player and enemy objects (defined in your app.js).
+ */
 /**
  * Predefine the variables we'll be using within this scope,
  * create the canvas element, grab the 2D context for that canvas

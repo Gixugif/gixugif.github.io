@@ -357,6 +357,7 @@ Bullet.prototype.move = function() {
  * current state of the game.
  */
 Bullet.prototype.testCollision = function(bullet) {
+    'use strict';
 
     var collisionNum = -1;
     var state = 0;

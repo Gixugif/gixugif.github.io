@@ -266,6 +266,8 @@ Player.prototype.handleInput = function(input) {
  * it from shooting until the bullet is gone.
  */
 Player.prototype.shoot = function() {
+    'use strict';
+
     if (this.shot === false) {
         bullets.push(new Bullet(this.x + this.width / 2, this.y - this.height + 30, 'player', bullets.length));
         this.shot = true;

@@ -14,6 +14,8 @@
  * @param {int} posY - the Y position of the enemy.
  */
 var Enemy = function(posX, posY, num) {
+    'use strict';
+
     this.x = posX;
     this.y = posY;
     this.dy = 20;

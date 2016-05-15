@@ -328,6 +328,8 @@ Bullet.prototype.update = function(dt) {
 
 /** Draws the player to the screen. */
 Bullet.prototype.render = function() {
+    'use strict';
+
     ctx.drawImage(Resources.get(this.sprite), this.x, this.y);
 };
 

@@ -321,6 +321,8 @@ var Bullet = function(posX, posY, type, num) {
  * @param {int} dt - a time delta between ticks.
  */
 Bullet.prototype.update = function(dt) {
+    'use strict';
+
     this.y += this.dy * dt;
 };
 

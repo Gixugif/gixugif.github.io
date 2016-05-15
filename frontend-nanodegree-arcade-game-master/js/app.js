@@ -215,6 +215,8 @@ var Player = function() {
  * @param {int} dt - a time delta between ticks.
  */
 Player.prototype.update = function(dt) {
+    'use strict';
+
     this.x += this.dx * dt;
     if (this.x < 20) {
         this.x = 20;

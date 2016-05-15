@@ -121,6 +121,7 @@ Enemy.prototype.destroy = function() {
  * current state of the game.
  */
 Enemy.prototype.testCollision = function(enemy) {
+    'use strict';
 
     var collisionNum = -1;
     var state = 0;

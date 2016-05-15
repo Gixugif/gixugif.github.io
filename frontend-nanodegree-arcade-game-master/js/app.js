@@ -242,6 +242,7 @@ Player.prototype.render = function() {
  * @param {[str]} input - array of keys being pressed.
  */
 Player.prototype.handleInput = function(input) {
+    'use strict';
 
     if (keyboard['\%']) {
         this.dx = -100;

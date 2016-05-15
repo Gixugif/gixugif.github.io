@@ -495,6 +495,8 @@ var createEnemies = function() {
 };
 
 var createBarriers = function() {
+    'use strict';
+
     barriers = [];
     for (var x = 0; x < 3; x++) barriers[x] = new Barrier(230 + (x * 300), 725);
 };

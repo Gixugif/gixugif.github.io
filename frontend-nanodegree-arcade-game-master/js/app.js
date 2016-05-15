@@ -36,20 +36,15 @@ var Ship = function(posX,posY,startdy,startdx,shipW,shipH,shipSprite) {
  * @param {int} posX - the X position of the enemy.
  * @param {int} posY - the Y position of the enemy.
  */
-var Enemy = function(posX, posY, num) {
+var Enemy = function(num) {
     'use strict';
 
-    this.x = posX;
-    this.y = posY;
-    this.dy = 20;
-    this.dx = 1;
     this.num = num;
     this.population = 56;
-    this.width = 65;
-    this.height = 70;
     this.display = true;
-    this.sprite = 'images/enemy1.png';
 };
+
+Enemy.__proto__ = Ship;
 
 /**
  * Update the enemy's position.
@@ -514,7 +509,7 @@ var createEnemies = function() {
     'use strict';
 
     allEnemies = [];
-    for (var x = 0; x < 41; x++) allEnemies[x] = new Enemy(91 + 135 * (allEnemies.length % 8), calcHeight(x), x);
+    for (var x = 0; x < 41; x++) allEnemies[x] = new Enemy(91 + 135 * (allEnemies.length % 8), calcHeight(x), x, 20, 1, 65, 70, 'images/enemy1.png');
 };
 
 var createBarriers = function() {

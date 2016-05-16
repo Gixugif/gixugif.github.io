@@ -31,15 +31,22 @@ var Ship = function(posX,posY,startdy,startdx,shipW,shipH,shipSprite) {
 };
 
 /**
- * Represents an enemy.
+ * @calldesc Represents an enemy.
  * @constructor
- * @param {int} posX - the X position of the enemy.
- * @param {int} posY - the Y position of the enemy.
+ * @augments Ship
+ * @param {int} posX - The X position of the enemy.
+ * @param {int} posY - The Y position of the enemy.
+ * @param {int} num - The index of the enemy
+ * @param {int} startdy - The change in y pos each frame.
+ * @param {int} startdx - The change in x pos each frame.
+ * @param {int} enemyW - The width of the enemy's sprite.
+ * @param {int} enemyH - The height of the enemy's sprite.
+ * @param {String} enemySprite - the URL of the enemy's sprite.
  */
-var Enemy = function(posX,posY,num,startdy,startdx,shipW,shipH,shipSprite) {
+var Enemy = function(posX,posY,num,startdy,startdx,enemyW,enemyH,enemySprite) {
     'use strict';
 
-    Ship.call(this,posX,posY,startdy,startdx,shipW,shipH,shipSprite);
+    Ship.call(this,posX,posY,startdy,startdx,enemyW,enemyH,enemySprite);
 
     this.num = num;
     this.population = 56;
@@ -210,13 +217,21 @@ var calcHeight = function(count) {
 
 
 /**
- * Represents the player
+ * @calldesc Represents the player.
  * @constructor
+ * @augments Ship
+ * @param {int} posX - The X position of the player.
+ * @param {int} posY - The Y position of the player.
+ * @param {int} startdy - The change in y pos each frame.
+ * @param {int} startdx - The change in x pos each frame.
+ * @param {int} playerW - The width of the players's sprite.
+ * @param {int} playerH - The height of the player's sprite.
+ * @param {String} playerSprite - the URL of the player's sprite.
  */
-var Player = function(posX, posY, startdy, startdx, shipW, shipH, shipSprite) {
+var Player = function(posX, posY, startdy, startdx, playerW, playerH, playerSprite) {
     'use strict';
 
-    Ship.call(this,posX,posY,startdy,startdx,shipW,shipH,shipSprite);
+    Ship.call(this,posX,posY,startdy,startdx,playerW,playerH,playerSprite);
 
     this.lives = 3;
     this.score = 0;

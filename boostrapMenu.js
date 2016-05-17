@@ -7,7 +7,7 @@ var bootstrapMenu = "<div class='col-xs-12'>" +
     "<span class='icon-bar'></span>" +
     "<span class='icon-bar'></span>" +
     "</button>" +
-    "<a class='navbar-brand' href='http://gixugif.github.io'>My Portfolio</a>" +
+    "<a class='navbar-brand' href='http://jeffreyzic.github.io/gixugif.github.io'>My Portfolio</a>" +
     "</div>" +
     "<div class='collapse navbar-collapse' id='myNavbar'>" +
     "<ul class='nav navbar-nav'>" +
@@ -18,17 +18,17 @@ var bootstrapMenu = "<div class='col-xs-12'>" +
     "<li><a class='dropdown-toggle' data-toggle='dropdown' href='#'>Porfolio" +
     "<span class='caret'></span></a>" +
     "<ul class='dropdown-menu'>" +
-    "<li><a href='index.html'>Portfolio</a>" +
+    "<li><a href='http://jeffreyzic.github.io/gixugif.github.io/index.html'>Portfolio</a>" +
     "</li>" +
-    "<li><a href='Resume/index.html'>Resume</a>" +
+    "<li><a href='http://jeffreyzic.github.io/gixugif.github.io/Resume/index.html'>Resume</a>" +
     "</li>" +
-    "<li><a href='frontend-nanodegree-arcade-game-master/index.html'>Classic Arcade Game</a>" +
+    "<li><a href='http://jeffreyzic.github.io/gixugif.github.io/frontend-nanodegree-arcade-game-master/index.html'>Classic Arcade Game</a>" +
     "</li>" +
-    "<li><a href='neighborhood-map/index.html'>Neighborhood Map</a>" +
+    "<li><a href='http://jeffreyzic.github.io/gixugif.github.io/neighborhood-map/index.html'>Neighborhood Map</a>" +
     "</li>" +
-    "<li><a href='Website_Optimization/views/pizza.html'>Website Optimization</a>" +
+    "<li><a href='http://jeffreyzic.github.io/gixugif.github.io/Website_Optimization/views/pizza.html'>Website Optimization</a>" +
     "</li>" +
-    "<li><a href='Feedreader_Testing/index.html'>Feedreader Testing</a>" +
+    "<li><a href='http://jeffreyzic.github.io/gixugif.github.io/Feedreader_Testing/index.html'>Feedreader Testing</a>" +
     "</li>" +
     "</ul>" +
     "</li>" +

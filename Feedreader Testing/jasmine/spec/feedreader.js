@@ -4,42 +4,53 @@
  * all of the tests that will be run against your application.
  */
 
-$(function() {
+$(function () {
 
-    describe('RSS Feeds', function() {
+    describe('RSS Feeds', function () {
 
-        it('are defined', function() {
+        it('are defined', function () {
+            // Makes sure allFeeds has at least one RSS feed listed
+
             expect(allFeeds).toBeDefined();
             expect(allFeeds.length).not.toBe(0);
         });
 
-         it('have URL', function() {
-            allFeeds.forEach(function(feed) {
+        it('have URL', function () {
+            // Make sure each feed in allFeeds has a non-empty URL
+
+            allFeeds.forEach(function (feed) {
                 expect(feed.url).toBeDefined();
                 expect(feed.url.length).not.toBe(0);
             });
-         });
+        });
 
-         it('have name', function() {
-            allFeeds.forEach(function(feed) {
+        it('have name', function () {
+            // Make sure each feed in allFeeds has a non-empty name
+
+            allFeeds.forEach(function (feed) {
                 expect(feed.name).toBeDefined();
                 expect(feed.name.length).not.toBe(0);
             });
-         });
+        });
     });
 
-    describe('The menu',function () {
+    describe('The menu', function () {
 
-        it('is hidden by default', function() {
+        it('is hidden by default', function () {
+            // Make sure the menu starts out hidden
+
             var hidden = false;
-            if($('.slide-menu').parents('.menu-hidden').length == 1) {
+            if ($('.slide-menu').parents('.menu-hidden').length == 1) {
                 hidden = true;
             }
 
             expect(hidden).toBe(true);
         });
 
-        it('toggles hidden', function() {
+        it('toggles hidden', function () {
+            // Make sure when the menu button is clicked it toggles the menu's
+            // hidden state
+
             var isHidden = $('.slide-menu').parents('.menu-hidden').length == 1;
             // we check the current status so that the test will work no matter the default state
 
@@ -52,15 +63,17 @@ $(function() {
 
     });
 
-    describe('Initial Entries', function() {
+    describe('Initial Entries', function () {
 
-        beforeEach(function(done) {
-            loadFeed(0,function() {
+        beforeEach(function (done) {
+            loadFeed(0, function () {
                 done();
             });
         });
 
         it('has at least one entry', function (done) {
+            // Make sure, when loaded, that there is at least one
+            // entry in the news feed
 
             var entry = document.getElementsByClassName('entry');
             var feed = document.getElementsByClassName('feed');
@@ -70,27 +83,29 @@ $(function() {
         });
     });
 
-    describe('New Feed Selection',function() {
-        var entries,
-            changedEntries;
+    describe('New Feed Selection', function () {
+        var entries
+            , changedEntries;
 
-        beforeEach(function(done) {
+        beforeEach(function (done) {
             //grab the current entries then load new ones
-            loadFeed(1,function() {
+            loadFeed(1, function () {
                 entries = $('.feed').html();
                 done();
             });
         });
 
-         it('changes content',function(done) {
+        it('changes content', function (done) {
+            // Make sure that when you select a new feed that the new feed
+            // actually changes its content
 
-            loadFeed(0,function() {
+            loadFeed(0, function () {
                 // then we compare the old ones to the new ones
                 expect($('.feed').html()).not.toEqual(entries);
                 done();
             });
 
-         });
+        });
     });
 
 }());

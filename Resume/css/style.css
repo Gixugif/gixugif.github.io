@@ -84,6 +84,9 @@ main {
     margin-top: 40px;
 }
 
+.no-right-margin {
+    margin-right: 0 !important;
+}
 
 /*colors*/
 

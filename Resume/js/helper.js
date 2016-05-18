@@ -30,7 +30,7 @@ var HTMLprojectDescription = '<div class="row proj-desc"><div class="col-xs-6"><
 var HTMLprojectImage = '<div class="row"><div class="col-xs-6"><img class="img-rounded img-responsive project_img" srcset="%srcSetData%"' +
     ' sizes="(min-width: 766px) 33vw, 100vw" src="%srcData%" alt="%altData%"></a></div></div>';
 
-var HTMLschoolStart = '<div class="row education-entry"></div>';
+var HTMLschoolStart = '<div class="row education-entry no-right-margin"></div>';
 var HTMLschoolName = '<div class="row"><div class="col-xs-4 school"><a href="#">%data%</a>';
 var HTMLschoolDegree = ' -- %data%</div></div>';
 var HTMLschoolDates = '<div class="row"><div class="col-xs-3 date-text">%data%</div></div>';
@@ -38,7 +38,7 @@ var HTMLschoolLocation = '<div class="row"><div class="col-xs-2 location-text">%
 var HTMLschoolMajor = '<div class="row"><div class="col-xs-2"><em>Major: %data%</em></div></div><br>';
 
 var HTMLonlineStart = '<div class="col-md-4 online-entry"></div>';
-var HTMLonlineClasses = '<div class="row"><div class="col-md-4"><h3 class="pad">Online Classes</h3></div></div>';
+var HTMLonlineClasses = '<div class="row no-right-margin"><div class="col-md-4"><h3 class="pad">Online Classes</h3></div></div>';
 var HTMLonlineTitle = '<div class="row"><a class="col-md-12 online-school" href="#">%data%';
 var HTMLonlineSchool = ' - %data%</a></div>';
 var HTMLonlineDates = '<div class="row"><div class="col-md-12 date-text">%data%</div></div>';

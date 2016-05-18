@@ -15,6 +15,7 @@ body {
 }
 
 main  {
+  margin-top: 40px;
   background-color: #e6741e;
   border-style: solid;
   border-top: none;

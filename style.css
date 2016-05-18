@@ -18,10 +18,6 @@ body {
 main {
     margin-top: 40px;
     background-color: #e6741e;
-    border-style: solid;
-    border-top: none;
-    border-width: 1px !important;
-    border-color: #d35d04;
     color: #e8e8e8;
 }
 

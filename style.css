@@ -71,9 +71,15 @@ main  {
 
 /*Navbar*/
 /* brandico */
+
 [class*="brandico-"]:before {
   font-family: 'brandico', sans-serif;
   margin-right: 0.5em;
+}
+
+.navigation-row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
 }
 
 .no-bottom-margin {

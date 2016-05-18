@@ -1,4 +1,4 @@
-var bootstrapMenu = "<div class='col-xs-12'>" +
+var bootstrapMenu = "<div class='no-padding col-xs-12'>" +
     "<nav class='navbar navbar-default no-bottom-margin'>" +
     "<div class='container-fluid'>" +
     "<div class='navbar-header'>" +

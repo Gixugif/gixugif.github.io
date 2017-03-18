@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/css-social-buttons/1.1.1/css/zocial.css">
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Sans">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+    <title>Le portfolio de Jeffrey Zic</title>
+</head>
+
+<body>
+
+    <div class='navigation-row navbar-fixed-top row'></div>
+
+    <main>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12 no-padding ">
+                    <img class="banner img-responsive" srcset="img/Lincoln_Highway_Bridge_Aug_5_15-1600_large.jpg 1600w,
+                                        img/Lincoln_Highway_Bridge_Aug_5_15-1000_medium.jpg 1000w,
+                                        img/Lincoln_Highway_Bridge_Aug_5_15-600_small.jpg 600w" sizes="(min-width: 1202px) 1200px, 100vw" src="img/Lincoln_Highway_Bridge_Aug_5_15-1000_small.jpg" alt="view of Hudson from Lincoln Highway Bridge">
+                    <div class='header-img strokeMe'>
+                        <p> Jeffrey Zic </p>
+                        <p> Développeur front</p>
+                        <p> Portfolio Web</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <section id="bio" class="container-fluid about-me">
+            <div class="row">
+                <div class="col-sm-4 no-padding">
+                    <img class="img-responsive self no-padding" src="img/me-600_small.jpg" alt="face-shot of me">
+                </div>
+                <div class="col-sm-6 about-text">
+                    <h2>À propos de mois</h2>
+                    <p>Nom: Jeffrey Zic</p>
+                    <p>Ans: 27 </p>
+                    <p>Locale: New York </p>
+                    <p>Bio: I'm currently employed at a small animal hospital doing desktop support and system/ network administration. I'm very interested in cyber security and web development. I've been interested in computers and coding all my life and have decided to move from IT/ infrastructure to programming. To help me in that switch I signed up for and completed Udacity's Front-End Developer Nanodegree program.</p>
+                    
+                    <p> Je travaille comme Adminastrateur Réseau à une petite clinique animale de compagnie. Je m'intéresse beaucoup à securité cyber et developpment web. Je m'ai intéressé à des ordinateurs et le programming toute ma vie et j'ai eu décider à transférer de l'informatique à le programming. Pour m'aider dans cette change, j'ai abonné et terminé le programme pour le Front-End Developer Nanodegree d'Udacity.</p>
+
+                    <p>I'm also very interested in the French language and culture and am currently learning French. Though I recognize the challenge of it, I would love to be able to find work in France. You can access the French versions of my sites here.</p>
+                    
+                    <p>J m'intéresse également à la langue français et culture et Je suis en train d'apprendre le Français. Malgré le difficultés, j'aimerais de pouvoir trouver un métier en France. Vous pouvez accesoir le version française de mes sites ici</p>
+                </div>
+                <div class='col-sm-2'></div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="container-fluid projects-section">
+            <div class="row text-center">
+                <div class="col-sm-12">
+                    <h3 class="project-name">Mes projects</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 no-padding">
+                    <a href="./Resume/index.html">
+                        <div class="project-title">CV</div>
+                        <img class="img-responsive project_img" srcset="img/resume-1600_large.jpg 1600w,
+                                        img/resume-1000_medium.jpg 1000w,
+                                        img/resume-600_small.jpg 600w" sizes="(min-width: 766px) 33vw, 100vw" src="img/resume-600_small.jpg" alt="project 1 resume picture"></a>
+                </div>
+                <div class="col-sm-4 no-padding">
+                    <a href="./frontend-nanodegree-arcade-game-master/index.html">
+                        <div class="project-title">Jeux d'arcade classique</div>
+                        <img class="img-responsive project_img" srcset="img/galaga-1600_large.jpg 1600w,
+                                        img/galaga-1000_medium.jpg 1000w,
+                                        img/galaga-600_small.jpg 600w" sizes="(min-width: 766px) 33vw, 100vw" src="img/galaga-600_small.jpg" alt="project 2 galaga picture"></a>
+                </div>
+                <div class="col-sm-4 no-padding">
+                    <a href="./neighborhood-map/index.html">
+                        <div class="project-title">Cart de quartier</div>
+                        <img class="img-responsive project_img" srcset="img/neighborhood-1600_large.jpg 1600w,
+                                        img/neighborhood-1000_medium.jpg 1000w,
+                                        img/neighborhood-600_small.jpg 600w" sizes="(min-width: 766px) 33vw, 100vw" src="img/neighborhood-600_small.jpg" alt="project 1 neighborhood picture"></a>
+                </div>
+                <div class="col-sm-4 no-padding">
+                    <a href="./Website_Optimization/views/pizza.html">
+                        <div class="project-title">Optimisation d'une site web</div>
+                        <img class="img-responsive project_img" srcset="img/gears-1600_large.jpg 1600w,
+                                        img/gears-1000_medium.jpg 1000w,
+                                        img/gears-600_small.jpg 600w" sizes="(min-width: 766px) 33vw, 100vw" src="img/gears-600_small.jpg" alt="gears"></a>
+                </div>
+                <div class="col-sm-4 no-padding">
+                    <a href="./Feedreader_Testing/index.html">
+                        <div class="project-title">Testing d'un Feedreader</div>
+                        <img class="img-responsive project_img" srcset="img/feedReader-1600_large.jpg 1600w,
+                                        img/feedReader-1000_medium.jpg 1000w,
+                                        img/feedReader-600_small.jpg 600w" sizes="(min-width: 766px) 33vw, 100vw" src="img/feedReader-600_small.jpg" alt="gears"></a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container copyright">
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="text-left">Copyright 2015 Jeffrey Zic
+                        <a class="text-right udacity" href="https://www.udacity.com/" target="_blank">Udacity</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src='boostrapMenu.js'></script>
+    <script>
+        $('.1').addClass('active');
+    </script>
+
+</body>
+
+</html>

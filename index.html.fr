@@ -41,7 +41,7 @@
         <section id="bio" class="container-fluid about-me">
             <div class="row">
                 <div class="col-sm-4 no-padding">
-                    <img class="img-responsive self no-padding" src="img/me-600_small.jpg" alt="face-shot of me">
+                    <img class="img-responsive self no-padding" src="img/photopasseport.jpg" alt="face-shot of me">
                 </div>
                 <div class="col-sm-6 about-text">
                     <h2>À propos de mois</h2>

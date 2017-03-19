@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+
+    <title>CV</title>
+
+    <link href='css/style.css' rel='stylesheet'>
+
+    <script src='js/jQuery.js'></script>
+    <script src='js/helper.js'></script>
+
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/css-social-buttons/1.1.1/css/zocial.css'>
+    <link rel='stylesheet' href='http://netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Droid+Sans'>
+
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js'></script>
+    <script src='http://maps.googleapis.com/maps/api/js?libraries=places'></script>
+    <script src='http://netdna.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js'></script>
+    <script src='Chartjs/Chart.min.js'></script>
+
+    <meta name='viewport' content='width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes'>
+
+</head>
+
+<body>
+
+    <div class='navigation-row navbar-fixed-top row'></div>
+
+    <main>
+
+        <div class='container-fluid'>
+            <div class='row'>
+                <div class='about-me col-xs-12 center-content'>
+                    <ul class='row topContacts'></ul>
+                    <div class='row bio'>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class='container-fluid'>
+            <div class='row'>
+                <div class='col-xs-12 section-title workExperience gray'>
+                    <h2>Work Experience</h2>
+                </div>
+            </div>
+        </div>
+        <div class='container-fluid'>
+            <div class='row'>
+                <div class='row no-right-margin'>
+                    <h2 class='col-3-xs-'>Projects</h2>
+                </div>
+                <div class='row projects no-right-margin'></div>
+            </div>
+        </div>
+        <div class='container-fluid'>
+            <div class='row gray'>
+                <div class='education'>
+                    <h2 class='education-title'>Education</h2>
+                </div>
+                <div class='row online no-right-margin'>
+                </div>
+            </div>
+        </div>
+        <div class='container-fluid'>
+            <div class='row'>
+                <div class='mapDiv'>
+                    <h2>Where I've Lived and Worked</h2>
+                </div>
+            </div>
+        </div>
+        <div class='container-fluid'>
+            <div class='row'>
+                <div class='col-xs-12 no-pad'>
+
+                        <a href='mailto:zic.jeffrey@gmail.com' class='btn-info btn-block btn-lg connect' role='button'>Let's Connect</a>
+
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+
+    <footer class='dark-gray'>
+        <div class='container-fluid'>
+            <div class='row footer-contacts'>
+            </div>
+            <div class='row'>
+                <div class='col-xs-12'>
+                    <hr>
+                </div>
+            </div>
+            <div class='row'>
+                <div class='col-md-12'>
+                    <p class='text-left'>Copyright 2015 Jeffrey Zic
+                        <a class='text-right udacity' href='https://www.udacity.com/' target='_blank'>Udacity</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src='js/resumeBuilder.fr.js'></script>
+    <script src='../boostrapMenu.js'></script>
+
+    <script type='text/javascript'>
+
+        if (document.getElementsByClassName('flex-item').length === 0) {
+            document.getElementById('topContacts').style.backgroundColor = '#000';
+        }
+        if (document.getElementsByTagName('h1').length === 0) {
+            document.getElementById('header').style.backgroundColor = '#000';
+        }
+        if (document.getElementsByClassName('work-entry').length === 0) {
+            document.getElementById('workExperience').style.backgroundColor = '#000';
+        }
+        if (document.getElementsByClassName('project-entry').length === 0) {
+            document.getElementById('projects').style.backgroundColor = '#000';
+        }
+        if (document.getElementsByClassName('education-entry').length === 0) {
+            document.getElementById('education').style.backgroundColor = '#000';
+        }
+        if (document.getElementsByClassName('flex-item').length === 0) {
+            document.getElementById('lets-connect').style.backgroundColor = '#000';
+        }
+        if (document.getElementById('map') === null) {
+            document.getElementById('mapDiv').style.backgroundColor = '#000';
+        }
+    </script>
+    <script>
+        $('.2').addClass('active');
+    </script>
+</body>
+
+</html>

@@ -116,7 +116,7 @@
         </div>
     </footer>
 
-    <script src='boostrapMenu.js'></script>
+    <script src='bootsrapMenu.fr.js'></script>
     <script>
         $('.1').addClass('active');
     </script>

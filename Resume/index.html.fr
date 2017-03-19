@@ -101,7 +101,7 @@
     </footer>
 
     <script src='js/resumeBuilder.fr.js'></script>
-    <script src='../boostrapMenu.js'></script>
+    <script src='../bootsrapMenu.fr.js'></script>
 
     <script type='text/javascript'>
 

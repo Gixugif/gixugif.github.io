@@ -54,7 +54,7 @@
 
                     <p>I'm also very interested in the French language and culture and am currently learning French. Though I recognize the challenge of it, I would love to be able to find work in France. You can access the French versions of my sites here.</p>
                     
-                    <p>J m'intéresse également à la langue français et culture et Je suis en train d'apprendre le Français. Malgré le difficultés, j'aimerais de pouvoir trouver un métier en France. Vous pouvez accesoir le version française de mes sites ici</p>
+                    <p>J m'intéresse également à la langue français et culture et Je suis en train d'apprendre le Français. Malgré le difficultés, j'aimerais de pouvoir trouver un métier en France. Vous pouvez accesoir le version anglaise de mes sites <a href="./index.html">ici</a></p>
                 </div>
                 <div class='col-sm-2'></div>
             </div>
@@ -85,7 +85,7 @@
                 </div>
                 <div class="col-sm-4 no-padding">
                     <a href="./neighborhood-map/index.html">
-                        <div class="project-title">Cart de quartier</div>
+                        <div class="project-title">Carte de quartier</div>
                         <img class="img-responsive project_img" srcset="img/neighborhood-1600_large.jpg 1600w,
                                         img/neighborhood-1000_medium.jpg 1000w,
                                         img/neighborhood-600_small.jpg 600w" sizes="(min-width: 766px) 33vw, 100vw" src="img/neighborhood-600_small.jpg" alt="project 1 neighborhood picture"></a>

@@ -48,11 +48,7 @@
                     <p>Nom: Jeffrey Zic</p>
                     <p>Ans: 27 </p>
                     <p>Locale: New York </p>
-                    <p>Bio: I'm currently employed at a small animal hospital doing desktop support and system/ network administration. I'm very interested in cyber security and web development. I've been interested in computers and coding all my life and have decided to move from IT/ infrastructure to programming. To help me in that switch I signed up for and completed Udacity's Front-End Developer Nanodegree program.</p>
-                    
-                    <p> Je travaille comme Adminastrateur Réseau à une petite clinique animale de compagnie. Je m'intéresse beaucoup à securité cyber et developpment web. Je m'ai intéressé à des ordinateurs et le programming toute ma vie et j'ai eu décider à transférer de l'informatique à le programming. Pour m'aider dans cette change, j'ai abonné et terminé le programme pour le Front-End Developer Nanodegree d'Udacity.</p>
-
-                    <p>I'm also very interested in the French language and culture and am currently learning French. Though I recognize the challenge of it, I would love to be able to find work in France. You can access the French versions of my sites here.</p>
+                    <p>Bio: Je travaille comme Adminastrateur Réseau à une petite clinique animale de compagnie. Je m'intéresse beaucoup à securité cyber et developpment web. Je m'ai intéressé à des ordinateurs et le programming toute ma vie et j'ai eu décider à transférer de l'informatique à le programming. Pour m'aider dans cette change, j'ai abonné et terminé le programme pour le Front-End Developer Nanodegree d'Udacity.</p>
                     
                     <p>J m'intéresse également à la langue français et culture et Je suis en train d'apprendre le Français. Malgré le difficultés, j'aimerais de pouvoir trouver un métier en France. Vous pouvez accesoir le version anglaise de mes sites <a href="./index.html">ici</a></p>
                 </div>

@@ -1,6 +1,6 @@
 var bio = {
     'name': 'Jeff',
-    'role': 'Adminastrateur rèseau',
+    'role': 'Administrateur réseau',
     'contacts': {
         'mobile': '+1 845.309.7576',
         'email': 'zic.jeffrey@gmail.com',
@@ -10,60 +10,60 @@ var bio = {
     },
     'welcomeMessage': 'Salut, bienvenue chez mon CV!',
     'skills': [{
-        'value': 2,
+        'value': 3,
         'color': "#00cc00",
         'highlight': "#00ff00",
         'label': 'python 3.x'
     }, {
-        'value': 1,
+        'value': 2,
         'color': "#663300",
         'highlight': "#996600",
         'label': 'javascript'
     }, {
-        'value': 2,
+        'value': 3,
         'color': "#3366ff",
         'highlight': "#6699ff",
         'label': 'HTML5'
     }, {
-        'value': 2,
+        'value': 3,
         'color': "#ffff00",
         'highlight': "#ffff99",
         'label': 'CSS'
     }, {
-        'value': 1,
+        'value': 2,
         'color': "#F7464A",
         'highlight': "#FF5A5E",
         'label': 'developpment front'
     }, {
-        'value': 1,
+        'value': 2,
         'color': "#7D1662",
         'highlight': "#902D76",
         'label': 'Git/ GitHub'
     }, {
-        'value': 1,
+        'value': 2,
         'color': "#04C991",
         'highlight': "#00FFB7",
         'label': 'Bootstrap'
     }, {
-        'value': 1,
+        'value': 2,
         'color': "#000",
         'highlight': "#484848",
         'label': 'jQuery'
     }, {
-        'value': 1,
+        'value': 2,
         'color': "#2e5d03",
         'highlight': "#428603",
         'label': 'Knockout'
     }, {
-        'value': 1,
+        'value': 2,
         'color': "#a45100",
         'highlight': "#d16700",
         'label': 'Jasmine'
     }, {
-        'value': 3,
+        'value': 1,
         'color': '#cc00ff',
         'highlight': '#ff00ff',
-        'label': 'Barracuda Communications Server'
+        'label': 'Digital Ocean'
     }],
     'biopic': './img/me-600_small.jpg',
     'polarChart': function(data) {
@@ -77,6 +77,7 @@ var bio = {
         var $about = $('.about-me');
         var $contacts = $('.topContacts');
         var $footer = $('.footer-contacts');
+        var $graphTitle = $('.skills-h3');
 
         $about.prepend(HTMLheaderRole.replace('%data%', bio.role))
         .prepend(HTMLheaderName.replace('%data%', bio.name));
@@ -94,7 +95,8 @@ var bio = {
         $('.bio').append(HTMLbioPic.replace('%data%', bio.biopic));
 
         if (bio.skills.length > 0) {
-            $('.bio').append(HTMLskillsStart);
+            $('.bio').append(HTMLskillsStart.replace(/%title%/gi, 'Compétences'));
+
             bio.skills.forEach(function(skill) {
                 $('.skills').append(HTMLskills.replace('%data%', skill.label));
 
@@ -109,9 +111,9 @@ var education = {
     'schools': [{
         'name': 'Hofstra',
         'location': 'Hempstead, NY',
-        'degree': 'B.S. of Computer Science',
+        'degree': "l'informatique",
         'majors': ['Comp. Sci'],
-        'dates': 'September 2008 - May 2010 (Not Gruaduated)',
+        'dates': 'Septembre 2008 - Mais 2010 (auditeur libre)',
         'url': 'http://www.hofstra.edu/home/'
 
     }],
@@ -169,7 +171,7 @@ var education = {
 var work = {
     'jobs': [{
         'employer': 'Rhinebeck Animal Hospital',
-        'title': 'Adminastrateur Rèseau',
+        'title': 'Administrateur Réseau',
         'location': 'Rhinebeck, NY',
         'dates': 'Depuis juillet 2012',
         'description': '<ul><li>Support technique à une équipe de 30 employées, avec 30 téléphones VoIP et 20 ordinateurs. Amélioration de la documentation de mis en place et utilisation des systèmes pour améliorer la clarté et l’efficacité. Amélioration de le fiabilité et l’efficacité de le sauvegarder automatique et les scriptes pour contrôler. Recherche et test des nouvelles technologies et réaliser le plus efficace.</li></ul>'

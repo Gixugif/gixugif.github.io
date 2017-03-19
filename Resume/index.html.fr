@@ -41,14 +41,14 @@
         <div class='container-fluid'>
             <div class='row'>
                 <div class='col-xs-12 section-title workExperience gray'>
-                    <h2>Work Experience</h2>
+                    <h2>Expérience Professionelle</h2>
                 </div>
             </div>
         </div>
         <div class='container-fluid'>
             <div class='row'>
                 <div class='row no-right-margin'>
-                    <h2 class='col-3-xs-'>Projects</h2>
+                    <h2 class='col-3-xs-'>Projets</h2>
                 </div>
                 <div class='row projects no-right-margin'></div>
             </div>
@@ -56,7 +56,7 @@
         <div class='container-fluid'>
             <div class='row gray'>
                 <div class='education'>
-                    <h2 class='education-title'>Education</h2>
+                    <h2 class='education-title'>Formations</h2>
                 </div>
                 <div class='row online no-right-margin'>
                 </div>
@@ -65,7 +65,7 @@
         <div class='container-fluid'>
             <div class='row'>
                 <div class='mapDiv'>
-                    <h2>Where I've Lived and Worked</h2>
+                    <h2>Les lieux où j'ai habité et travaillé</h2>
                 </div>
             </div>
         </div>
@@ -73,7 +73,7 @@
             <div class='row'>
                 <div class='col-xs-12 no-pad'>
 
-                        <a href='mailto:zic.jeffrey@gmail.com' class='btn-info btn-block btn-lg connect' role='button'>Let's Connect</a>
+                        <a href='mailto:zic.jeffrey@gmail.com' class='btn-info btn-block btn-lg connect' role='button'>Laissons-nous Connecter</a>
 
                 </div>
             </div>

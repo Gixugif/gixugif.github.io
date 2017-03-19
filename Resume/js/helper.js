@@ -12,7 +12,7 @@ var HTMLlocation = '<li class="col-sm-3"><span class="orange-text">location</spa
 var HTMLbioPic = '<div class="col-sm-2 cent"><img src="%data%" class="img-circle bio-pic"></div>';
 var HTMLwelcomeMsg = '<span class="welcome-message">%data%</span>';
 
-var HTMLskillsStart = '<div class="col-sm-2 cent "><h3 class="skills-h3">Skills at a Glance:</h3><ul class="skills"></ul></div>';
+var HTMLskillsStart = '<div class="col-sm-2 cent "><h3 class="skills-h3">%title%</h3><ul class="skills"></ul></div>';
 var HTMLskills = '<li><span class="white-text">%data%</span></li>';
 var HTMLskillsChart = '<div class="col-sm-2 cent"><canvas class="skills-chart" width="300" height="300"></canvas></div>';
 

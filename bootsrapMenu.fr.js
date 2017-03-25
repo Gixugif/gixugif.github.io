@@ -11,16 +11,16 @@ var bootstrapMenu = "<div class='no-padding col-xs-12'>" +
     "</div>" +
     "<div class='collapse navbar-collapse' id='myNavbar'>" +
     "<ul class='nav navbar-nav'>" +
-    "<li class='1'><a href='http://jeffreyzic.github.io/gixugif.github.io/index.html.fr'>Accueil</a>" +
+    "<li class='1'><a href='http://jeffreyzic.github.io/gixugif.github.io/index..fr.html'>Accueil</a>" +
     "</li>" +
     "<li><a href='http://jeffreyzic.github.io/gixugif.github.io/#bio'>À propos de moi</a>" +
     "</li>" +
     "<li><a class='dropdown-toggle' data-toggle='dropdown' href='#'>Porfolio" +
     "<span class='caret'></span></a>" +
     "<ul class='dropdown-menu'>" +
-    "<li class='1'><a href='http://jeffreyzic.github.io/gixugif.github.io/index.html.fr'>Portfolio</a>" +
+    "<li class='1'><a href='http://jeffreyzic.github.io/gixugif.github.io/index.fr.html'>Portfolio</a>" +
     "</li>" +
-    "<li class='2'><a href='http://jeffreyzic.github.io/gixugif.github.io/Resume/index.html.fr'>CV</a>" +
+    "<li class='2'><a href='http://jeffreyzic.github.io/gixugif.github.io/Resume/index.fr.html'>CV</a>" +
     "</li>" +
     "<li class='3'><a href='http://jeffreyzic.github.io/gixugif.github.io/frontend-nanodegree-arcade-game-master/index.html'>Jeux d'arcade classique</a>" +
     "</li>" +

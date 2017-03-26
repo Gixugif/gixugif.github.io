@@ -7,11 +7,11 @@ var bootstrapMenu = "<div class='no-padding col-xs-12'>" +
     "<span class='icon-bar'></span>" +
     "<span class='icon-bar'></span>" +
     "</button>" +
-    "<a class='navbar-brand' href='http://jeffreyzic.github.io/gixugif.github.io/index.html.fr'>Mon Portfolio</a>" +
+    "<a class='navbar-brand' href='http://jeffreyzic.github.io/gixugif.github.io/index.fr.html'>Mon Portfolio</a>" +
     "</div>" +
     "<div class='collapse navbar-collapse' id='myNavbar'>" +
     "<ul class='nav navbar-nav'>" +
-    "<li class='1'><a href='http://jeffreyzic.github.io/gixugif.github.io/index..fr.html'>Accueil</a>" +
+    "<li class='1'><a href='http://jeffreyzic.github.io/gixugif.github.io/index.fr.html'>Accueil</a>" +
     "</li>" +
     "<li><a href='http://jeffreyzic.github.io/gixugif.github.io/#bio'>À propos de moi</a>" +
     "</li>" +

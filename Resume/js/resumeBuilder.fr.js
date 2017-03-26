@@ -174,7 +174,10 @@ var work = {
         'title': 'Administrateur Réseau',
         'location': 'Rhinebeck, NY',
         'dates': 'Depuis juillet 2012',
-        'description': '<ul><li>Support technique à une équipe de 30 employées, avec 30 téléphones VoIP et 20 ordinateurs. Amélioration de la documentation de mis en place et utilisation des systèmes pour améliorer la clarté et l’efficacité. Amélioration de le fiabilité et l’efficacité de le sauvegarder automatique et les scriptes pour contrôler. Recherche et test des nouvelles technologies et réaliser le plus efficace.</li></ul>'
+        'description': '<ul><li>Support technique à une équipe de 30 employées, avec 30 téléphones VoIP et 20 ordinateurs.</li>' +
+                       '<li>Amélioration de la documentation de mis en place et utilisation des systèmes pour améliorer la clarté et l’efficacité.</li>' +
+                       '<li>Amélioration de le fiabilité et l’efficacité de le sauvegarder automatique et les scriptes pour contrôler.</li>' +
+                       '<li>Recherche et test des nouvelles technologies et réaliser le plus efficace.</li></ul>'
     }],
     'display': function() {
 
@@ -201,14 +204,14 @@ var projects = {
         'title': 'Feed Reader',
         'url': 'https://github.com/JeffreyZic/frontend-nanodegree-feedreader',
         'dates': 'Mais 2016',
-        'description':  '<ul><li>Construition de tests en utilisant le framework Jasmine</li>' +
+        'description':  '<ul><li>Construction de tests en utilisant le framework Jasmine</li>' +
                         '<li>Utilisation de tests asynchrone</li></ul>',
         'images': ['./img/feedReader-600_small.jpg 600w', './img/feedReader-1000_medium.jpg 1000w', './img/feedReader-1600_large.jpg 1600w']
     }, {
         'title': 'Carte de quartier',
         'url': 'https://github.com/JeffreyZic/neighborhood-map',
         'dates': 'Mais 2016',
-        'description': "<ul><li>Construition d'application web en utilisant le Google Maps et API Yelp search</li>" +
+        'description': "<ul><li>Construction d'application web en utilisant le Google Maps et API Yelp search</li>" +
                         "<li>Utilisation  d'appells asynchrones à APIs 3eme partie</li>" +
                         "<li>Responsive, practique  experience de l'user</li></ul>",
         'images': ['./img/neighborhood-600_small.jpg 600w', './img/neighborhood-1000_medium.jpg 1000w', './img/neighborhood-1600_large.jpg 1600w']
@@ -222,7 +225,7 @@ var projects = {
         'title': 'Call Detail Recording',
         'url': 'https://github.com/JeffreyZic/CDRecording',
         'dates': 'Nov 2015',
-        'description': "<ul><li>Construition d'un script extensible en utilisant Python 3.x</li>" +
+        'description': "<ul><li>Construction d'un script extensible en utilisant Python 3.x</li>" +
                         '<li>Analyse rapidement 10,000s de metadonnées de appells téléphones</li></ul>',
         'images': ['./img/cdr-600_small.jpg 600w', './img/cdr-1000_medium.jpg 1000w', './img/cdr-1600_large.jpg 1600w']
     }],
